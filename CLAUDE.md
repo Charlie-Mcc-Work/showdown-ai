@@ -141,6 +141,7 @@ tensorboard --logdir logs/
 ## Issues & Notes
 
 - **2024-12-30**: Initial `pip install` failed due to /tmp being RAM-based (3.8GB limit). Fixed by using `TMPDIR=/path/to/disk pip install`. PyTorch + CUDA libs are ~4GB.
+- **2024-12-30**: Models are now included in git to share across machines. If size becomes an issue (>100MB per file), switch to Git LFS.
 
 ---
 

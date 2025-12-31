@@ -36,9 +36,12 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Training artifacts - models can be large (100MB+)
-models/
+# Training logs (can be regenerated, large)
 logs/
+
+# Note: models/ is NOT ignored - we want to share trained models across machines
+# If models exceed GitHub's 100MB limit, switch to Git LFS:
+#   git lfs install && git lfs track "models/**/*.zip"
 
 # Local Showdown server - large and can be regenerated
 pokemon-showdown/
