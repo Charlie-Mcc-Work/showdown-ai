@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:poke-env.readthedocs.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(chmod:*)",
+      "Bash(TMPDIR=/home/charliemcclatchy/Documents/showdown/.tmp pip install:*)",
+      "Bash(gh:*)"
+    ]
+  }
+}
